@@ -1,11 +1,15 @@
-import React from 'react';
-import './App.css'
+import Home from './pages/Home'
+import ImageDetail from './pages/ImageDetail'
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
 
   return (
-    <div className='text-3xl font-bold underline'>
-      GalleryGaze
+    <div>
+      <Routes>
+        <Route path='/home' element={<Home />} />
+        <Route path='/imgdetail' element={<ImageDetail />} />
+      </Routes>
     </div>
   )
 }

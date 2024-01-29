@@ -6,7 +6,7 @@ const Navbar = () => {
         <div>
             <nav className='hidden md:flex items-center justify-center'>
                 <div className='flex justify-between px-7 py-3 my-7 w-4/5 backdrop-blur-[100px] text-white border-2 border-gray-400 shadow-md shadow-gray-500 rounded-xl'>
-                    <Link to='/' className='flex items-center text-xl font-medium'>Homepage</Link>
+                    <Link to='/' className='flex items-center text-xl font-medium'>Home</Link>
                     <div className='flex items-center'>
                         <a href="" className='mx-3 px-2 hover:text-gray-300'>Login</a>
                         <a href="" className='border-2 border-gray-500 py-1 px-3 rounded-lg hover:bg-white hover:text-black'>Create Account</a>

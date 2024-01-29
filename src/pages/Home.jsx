@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import SearchBanner from '../components/SearchBanner'
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      <SearchBanner />
     </div>
   )
 }

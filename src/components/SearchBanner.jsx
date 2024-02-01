@@ -5,7 +5,7 @@ import { FiSearch } from "react-icons/fi";
 const SearchBanner = () => {
   return (
     <div>
-      <div style={{ backgroundImage: 'url(' + 'https://pixabay.com/get/g46fb01c7331e8cb648452649ed88315d559c05f299aa129a1a603f092bd7a5c5b95526a06a78d1a238896d5d04239562e961f61a2dc63144ae71ff8e50abb49e_1280.jpg' + ')', }} className='h-1/2 w-screen bg-cover bg-center'>
+      <div style={{ backgroundImage: 'url(' + 'https://pixabay.com/get/gd4571944d16de772fa1547bf25df512cc6a939701cdabffe41bc47265065f00c8562610131e6a01367238c1ae82c291bbdeb00ec9e97e3056d7fa1b23f4106a3_1280.jpg' + ')', }} className='h-1/2 w-screen bg-cover bg-center'>
         <div className='flex-col items-center justify-center'>
           <Navbar />
           <div className='flex items-center justify-center text-white'>

@@ -3,7 +3,7 @@ import { Oval } from 'react-loader-spinner';
 
 const Loader = () => {
   return (
-    <div className='flex justify-center my-7'>
+    <div className='flex justify-center my-10'>
         <Oval visible={true} height='40' width='40' color='#000' ariaLabel='oval-loading' />
     </div>
   )

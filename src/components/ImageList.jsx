@@ -8,7 +8,7 @@ const ImageList = () => {
   const [loading, setLoading] = useState(true);
 
   const updateImage = async () => {
-    const url = `https://pixabay.com/api/?key=41895623-1d78e1c7f668aecdd84166fa1&q=india&image_type=photo`;
+    const url = `https://pixabay.com/api/?key=41895623-1d78e1c7f668aecdd84166fa1&q=indian+village&image_type=photo`;
     setLoading(true);
     let data = await fetch(url);
     let parsedData = await data.json();
